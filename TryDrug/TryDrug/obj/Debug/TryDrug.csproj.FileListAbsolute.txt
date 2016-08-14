@@ -1,0 +1,17 @@
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\bin\Debug\TryDrug.exe.config
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\bin\Debug\TryDrug.exe
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\bin\Debug\TryDrug.pdb
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\TryDrug.csprojResolveAssemblyReference.cache
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\MainWindow.g.cs
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\App.g.cs
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\TryDrug_MarkupCompile.cache
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\TryDrug_MarkupCompile.lref
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\MainWindow.baml
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\TryDrug.g.resources
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\TryDrug.Properties.Resources.resources
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\TryDrug.csproj.GenerateResource.Cache
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\TryDrug.exe
+c:\users\andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Debug\TryDrug.pdb
+C:\Users\Andre\Documents\Fedyshyn.Andrii\TryDrug\TryDrug\bin\Debug\TryDrug.exe.config
+C:\Users\Andre\Documents\Fedyshyn.Andrii\TryDrug\TryDrug\obj\Debug\TryDrug.exe
+C:\Users\Andre\Documents\Fedyshyn.Andrii\TryDrug\TryDrug\obj\Debug\TryDrug.pdb

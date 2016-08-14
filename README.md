@@ -4,9 +4,9 @@ Practical task of Fedyshyn Andrii on Eleks Internship (July 2016)
 ## Student Info
   
  * Name: Fedyshyn Andrii
- * University: //todo
- * Course: //todo: додайте сюди курс, на якому навчаєтесь
+ * University: //IFNTUOG
+ * Course: //todo: Програмна інженерія (4) 
   
 ## Task Info
   
- //todo: додайте сюди завдання, яке ви виконуєте на практиці (текст завдання)
+ //todo: Створити конвертер основних типів в Windows на WPF

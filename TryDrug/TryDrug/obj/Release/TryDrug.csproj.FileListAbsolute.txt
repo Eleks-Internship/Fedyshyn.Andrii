@@ -1,0 +1,14 @@
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\bin\Release\TryDrug.exe.config
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\bin\Release\TryDrug.exe
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\bin\Release\TryDrug.pdb
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\MainWindow.g.cs
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\App.g.cs
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\TryDrug_MarkupCompile.cache
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\TryDrug_MarkupCompile.lref
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\MainWindow.baml
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\TryDrug.g.resources
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\TryDrug.Properties.Resources.resources
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\TryDrug.csproj.GenerateResource.Cache
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\TryDrug.exe
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\TryDrug.pdb
+C:\Users\Andre\documents\visual studio 2015\Projects\TryDrug\TryDrug\obj\Release\TryDrug.csprojResolveAssemblyReference.cache
