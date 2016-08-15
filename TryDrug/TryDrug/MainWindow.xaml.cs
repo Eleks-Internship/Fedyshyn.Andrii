@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace TryDrug
 {
@@ -23,14 +23,15 @@ namespace TryDrug
         public MainWindow()
         {
             InitializeComponent();
-            btnConvert.IsEnabled = false;
         }
 
         private void btnConvert_Click(object sender, RoutedEventArgs e)
         {
-            image.Visibility = Visibility.Visible;
-            lBoxDropFiles.Items.Clear();
-            btnDelete.Visibility = Visibility.Hidden;
+            var s = @"D:\Навчання\6 Семестр\Таня\3.docx";
+            MessageBox.Show(s);
+            Converters.ConvertFromWord.WordToXps(s);
+            MessageBox.Show("File is converted");
+            StartState();
         }
 
 
@@ -41,39 +42,53 @@ namespace TryDrug
                 image.Visibility = Visibility.Hidden;
                 lBoxDropFiles.Items.Clear();
 
-                string[] droppedFilePaths =
-                e.Data.GetData(DataFormats.FileDrop, true) as string[];
 
-                foreach (string droppedFilePath in droppedFilePaths)
+                string[] LOP = e.Data.GetData(DataFormats.FileDrop, true) as string[];
+
+                foreach (var lop in LOP)
                 {
-                    ListBoxItem fileItem = new ListBoxItem();
-
-                    fileItem.Content = System.IO.Path.GetFileNameWithoutExtension(droppedFilePath);
-                    fileItem.ToolTip = droppedFilePath;
-
-                    lBoxDropFiles.Items.Add(fileItem);
+                    if (Checking.CheckFormat(lop))
+                    {
+                        ListBoxItem fileItem = new ListBoxItem();
+                        fileItem.Content = lop;//System.IO.Path.GetFileNameWithoutExtension(lop);
+                                               //fileItem.ToolTip = lop;
+                        lBoxDropFiles.Items.Add(fileItem);
+                    }
                 }
             }
 
+            btnDelete.IsEnabled = false;
             btnConvert.IsEnabled = true;
             btnDelete.Visibility = Visibility.Visible;
+
+            if (lBoxDropFiles.Items.IsEmpty)
+            {
+                StartState();
+            }
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
-            lBoxDropFiles.Items.Remove(lBoxDropFiles.SelectedItem);
+            var delItem = lBoxDropFiles.SelectedItem;
+            lBoxDropFiles.Items.Remove(delItem);
             if (lBoxDropFiles.Items.IsEmpty)
             {
-                btnConvert.IsEnabled = false;
-                image.Visibility = Visibility.Visible;
                 lBoxDropFiles.Items.Clear();
-                btnDelete.Visibility = Visibility.Hidden;
+                StartState();
             }
+
         }
 
         private void lBoxDropFiles_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             btnDelete.IsEnabled = (lBoxDropFiles.SelectedIndex != -1) ? true : false;
+        }
+
+        private void StartState()
+        {
+            image.Visibility = Visibility.Visible;
+            lBoxDropFiles.Items.Clear();
+            btnDelete.Visibility = Visibility.Hidden;
         }
     }
 }

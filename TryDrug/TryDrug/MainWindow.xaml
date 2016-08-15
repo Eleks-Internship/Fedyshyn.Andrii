@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TryDrug"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" MinWidth="300" MinHeight="200" MaxWidth="600" MaxHeight="400" Icon="icon.ico">
+        Title="MainWindow" Height="350" Width="525" MinWidth="300" MinHeight="200" MaxWidth="600" MaxHeight="400" Icon="Images/Logo.ico">
     <Window.Resources>
         <ControlTemplate TargetType="Button" x:Key="ImageButton">
             <Image Source="Images/file.png" 
@@ -15,7 +15,7 @@
         </ControlTemplate>
     </Window.Resources>
     <Grid>
-        <Button x:Name="btnConvert" Content="Convert" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Top" Height="60" Click="btnConvert_Click"/>
+        <Button x:Name="btnConvert" Content="Convert" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Top" Height="60" Click="btnConvert_Click" IsEnabled="False"/>
         <ListBox x:Name="lBoxDropFiles" HorizontalAlignment="Stretch" Margin="0,60,0,0" VerticalAlignment="Stretch" AllowDrop="True" Drop="lBoxDropFiles_Drop" SelectionChanged="lBoxDropFiles_SelectionChanged" />
         <Button x:Name="image" Template="{StaticResource ImageButton}" AllowDrop="True" Drop="lBoxDropFiles_Drop">
             <Button.Triggers>
